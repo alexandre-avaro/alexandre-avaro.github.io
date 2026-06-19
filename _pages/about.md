@@ -24,8 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a post-doctoral researcher at [LadHyX](https://www.ladhyx.polytechnique.fr/fr/) (École Polytechnique) and [Physical Microfluidics and Bioengineering](https://research.pasteur.fr/en/team/physical-microfluidics-bioengineering/) (Institut Pasteur). Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+WEBSITE UNDER CONSTRUCTION! 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am currently a post-doctoral researcher at [LadHyX](https://www.ladhyx.polytechnique.fr/fr/) (École Polytechnique) and [Physical Microfluidics and Bioengineering](https://research.pasteur.fr/en/team/physical-microfluidics-bioengineering/) (Institut Pasteur). I am interested in microfluidics, fluid mechanics and transport at the microscale, electrokinetic phenomena, and fundamentals of enzymatic kinetics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+ I obtained my PhD in Mechanical Engineering at Stanford University in June 2025, under the supervision of [Juan G. Santiago](https://microfluidics.stanford.edu/) and [Andrew D. Griffiths](https://www.lbc.espci.fr/home/). Prior to this, I obtained a Diplôme d'Ingénieur from CentraleSupélec and a M.S. in Mechanical Engineering from Stanford University in 2022.
