@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alexandre-avaro.github.io//sitemap.xml
+Sitemap: https://alexandre-avaro.github.io/sitemap.xml
