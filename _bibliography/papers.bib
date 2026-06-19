@@ -11,8 +11,9 @@
   pages = {15768--15774},
   issn = {0003-2700, 1520-6882},
   doi = {10.1021/acs.analchem.1c03925},
-preview = {cafes.gif},
-  copyright = {https://doi.org/10.15223/policy-029}
+  preview = {cafes.gif},
+  copyright = {https://doi.org/10.15223/policy-029},
+  abstract = {We present the development of a client-side web-based simulator for complex electrophoresis phenomena, including isotachophoresis. The simulation tool is called Client-based Application for Fast Electrophoresis Simulation (CAFES). CAFES uses the broad cross-browser compatibility of JavaScript to provide a rapid and easy-to-use tool for coupled unsteady electromigration, diffusion, and equilibrium electrolyte reactions among multiple weak electrolytes. The code uses a stationary grid (for simplicity) and an adaptive time step to provide reliable estimates of ion concentration dynamics (including pH profile evolution), requiring no prior installation nor compilation. CAFES also offers a large database of commonly used species and their relevant physicochemical properties. We present a validation of predictions from CAFES by comparing them to experimental data of peak- and plateau-mode isotachophoresis experiments. The code yields accurate estimates of interface velocity, plateau length and relative intensity, and pH variations while significantly reducing the computation time compared to existing codes. The tool is open-source and available for free at https://microfluidics.stanford.edu/cafes.}
 }
 
 @article{Avaro2022AC,
@@ -26,7 +27,9 @@ preview = {cafes.gif},
   pages = {e202209527},
   issn = {0044-8249, 1521-3757},
   doi = {10.1002/ange.202209527},
-  abstract = {Michaelis--Menten kinetics is an essential model to rationalize enzyme reactions. The quantification of Michaelis--Menten parameters can be very challenging as it is sensitive to even small experimental errors. We here present a quantification of the uncertainty inherent to the experimental determination of kinetic rate parameters for enzymatic reactions. We study the influence of several sources of uncertainty and bias, including the inner filter effect, pipetting errors, number of points in the Michaelis--Menten curve, and flat-field correction. Using Monte Carlo simulations and analyses of experimental data, we compute typical uncertainties of k_cat, K_m and catalytic efficiency  k_cat/K_m. As a salient example, we analyze the extraction of such parameters for CRISPR-Cas systems. CRISPR diagnostics have recently attracted much interest and yet reports of these enzymatic kinetic rates have been highly unreliable and inconsistent.}
+  abstract = {Michaelis--Menten kinetics is an essential model to rationalize enzyme reactions. The quantification of Michaelis--Menten parameters can be very challenging as it is sensitive to even small experimental errors. We here present a quantification of the uncertainty inherent to the experimental determination of kinetic rate parameters for enzymatic reactions. We study the influence of several sources of uncertainty and bias, including the inner filter effect, pipetting errors, number of points in the Michaelis--Menten curve, and flat-field correction. Using Monte Carlo simulations and analyses of experimental data, we compute typical uncertainties of k_cat, K_m and catalytic efficiency  k_cat/K_m. As a salient example, we analyze the extraction of such parameters for CRISPR-Cas systems. CRISPR diagnostics have recently attracted much interest and yet reports of these enzymatic kinetic rates have been highly unreliable and inconsistent.},
+  preview = {uncertainty.jpg},
+  selected = {true}
 }
 
 @article{Avaro2023LC,
@@ -38,7 +41,11 @@ preview = {cafes.gif},
   number = {5},
   pages = {938--963},
   publisher = {Royal Society of Chemistry},
-  doi = {10.1039/D2LC00852A}
+  doi = {10.1039/D2LC00852A},
+  selected = {true},
+  preview = {reviewcrispruflu.png},
+  abstract = {Reviewed are nucleic acid detection assays that incorporate clustered regularly interspaced short palindromic repeats (CRISPR)-based diagnostics and microfluidic devices and techniques. The review serves as a reference for researchers who wish to use CRISPR–Cas systems for diagnostics in microfluidic devices. The review is organized in sections reflecting a basic five-step workflow common to most CRISPR-based assays. These steps are analyte extraction, pre-amplification, target recognition, transduction, and detection. The systems described include custom microfluidic chips and custom (benchtop) chip control devices for automated assays steps. Also included are partition formats for digital assays and lateral flow biosensors as a readout modality. CRISPR-based, microfluidics-driven assays offer highly specific detection and are compatible with parallel, combinatorial implementation. They are highly reconfigurable, and assays are compatible with isothermal and even room temperature operation. A major drawback of these assays is the fact that reports of kinetic rates of these enzymes have been highly inconsistent (many demonstrably erroneous), and the low kinetic rate activity of these enzymes limits achievable sensitivity without pre-amplification. Further, the current state-of-the-art of CRISPR assays is such that nearly all systems rely on off-chip assays steps, particularly off-chip sample preparation.}
+
 }
 
 @article{Avaro2025AC,
@@ -52,7 +59,10 @@ preview = {cafes.gif},
   pages = {13192--13200},
   issn = {0003-2700, 1520-6882},
   doi = {10.1021/acs.analchem.5c01060},
-  copyright = {https://doi.org/10.15223/policy-029}
+  copyright = {https://doi.org/10.15223/policy-029},
+    preview = {degradation.gif},
+    abstract = {The sensitivity of CRISPR-Cas systems used for molecular diagnostics remains a major bottleneck in the adoption of this technology. The vast majority of CRISPR-based assays use dually labeled, single-stranded reporters and fluorescence signal readouts to infer enzymatic activity and the presence (or absence) of target nucleic acid. The limit of detection of such assays is set by the kinetics of the Cas enzymes and a slow yet measurable increase in the fluorescence signal. We demonstrate here that the background signal and limits of detection of most assays are very likely limited by the degradation of reporter molecules. This degradation is dynamic and is not associated with enzymatic activity. We present theory and experiments to design and calibrate CRISPR assays. We introduce a new kinetic framework to account for the degradation of reporter molecules and derive a fundamental limit of detection for CRISPR-based assays. Our data show that Michaelis–Menten kinetics alone are insufficient to describe reporter (substrate) cleavage rates. The framework and techniques presented here should help reduce the frequency and magnitude of errors currently routinely made in quantifying CRISPR kinetics and interpreting CRISPR diagnostic fluorescence signals.}
+
 }
 
 @article{Avaro2025ACA,
@@ -62,7 +72,13 @@ preview = {cafes.gif},
   journal = {Analytica Chimica Acta},
   volume = {1337},
   pages = {343553},
-  publisher = {Elsevier}
+  publisher = {Elsevier},
+  preview = {bean.png},
+  doi = {10.1016/j.aca.2024.343553},
+  abstract = {
+Isotachophoresis (ITP) is a well-established electrokinetic method for separation and preconcentration of analytes. Several simulation tools for ITP have been published, but their use for experimental design is limited by the computational time for a single run and/or by the number of conditions that can be investigated per simulation run. A large fraction of the existing solvers also do not account for ionic strength effects, which can influence whether an analyte focuses in ITP. There is currently no publicly available tool for the easy and rapid design of ITP experiments.
+We present a rapid, highly parallelized steady-state solver for the design of buffer electrolytes in ITP experiments. The tool is called Browser-based Electrolyte Analyses for ITP (BEAN). BEAN is designed to facilitate the evaluation and identification of functional buffer chemistries for ITP. Given a user-defined chemistry system, BEAN solves a set of coupled, non-linear integral conservation equations to determine whether a specific analyte is focused by the ITP system, and estimates quantities of interest in the design of related ITP processes. These quantities include zone concentrations, pH, and effective (observable) mobility values. BEAN also computes 972 variations of the specified ITP chemistry, including a broad range of buffer titrations and ion mobilities. All the calculations performed in BEAN include ionic strength and finite ionic radius effects, and the solver handles species with arbitrary valence. The tool further includes a searchable database of 521 commonly used electrolytes. BEAN is available at microfluidics.stanford.edu/bean.
+This study introduces a novel tool that integrates known ITP steady-state equations with a highly parallel computational framework, an electrolyte database, and a web-based interface. BEAN requires no license nor compilation, and its parallel computations are performed automatically without specific implementation needed from the user. This enables users to screen wide ranges of experimental conditions in the design of ITP experiments.}
 }
 
 @article{Avaro2025CC,
@@ -73,7 +89,10 @@ preview = {cafes.gif},
   volume = {61},
   number = {95},
   pages = {18756--18772},
-  publisher = {Royal Society of Chemistry}
+  publisher = {Royal Society of Chemistry},
+  preview = {engineeringcrisprdx.png},
+  doi = {10.1039/D5CC04206B},
+  abstract = {This Feature Article reviews engineering guidelines for the design of CRISPR assays, including experimentally validated theoretical models and recommendations for experimental research practice and reporting. First, the state of the art of CRISPR kinetics studies is reviewed. Then presented is a summary of the existence and persistence of widespread gross errors in reports of kinetic rate constants of CRISPR-Cas enzymes, as well as the fact that many CRISPR studies provide insufficient data to check for consistency or assess calibration. Proper experimental procedures including signal calibration are critical to the assessment, design, and future development of CRISPR kinetics assays and CRISPR diagnostics. This review then presents guidelines for the calibration of fluorescence-based CRISPR assays. Fluorescence is the most common detection modality, and incorrect calibration is implicated in high-profile, gross errors in the field. Also presented is a review of enzymatic kinetic rates and reporter molecule degradation as the major factor limiting CRISPR assay sensitivity. Lastly, progress in, and criticism of, microfluidic applications of CRISPR assays is summarized.}
 }
 
 @article{Avaro2025PNAS,
@@ -110,7 +129,9 @@ preview = {cafes.gif},
   pages = {15117--15123},
   issn = {0003-2700, 1520-6882},
   doi = {10.1021/acs.analchem.2c03338},
-  copyright = {https://doi.org/10.15223/policy-029}
+  copyright = {https://doi.org/10.15223/policy-029},
+  abstract = {The specificity of CRISPR-Cas12 assays is attractive for the detection of single nucleotide polymorphisms (SNPs) implicated in, e.g., cancer and SARS-CoV-2 variants. Such assays often employ endpoint measurements of SNP or wild type (WT) activated Cas12 trans-cleavage activity; however, the fundamental kinetic effects of SNP versus WT activation remain unknown. We here show that endpoint-based assays are limited by arbitrary experimental choices (like used reporter concentration and assay duration) and work best for known target concentrations. More importantly, we show that SNP (versus WT) activation results in measurable kinetic shifts in the Cas12 trans-cleavage substrate affinity (KM) and apparent catalytic efficiency (kcat*/KM). To address endpoint-based assay limitations, we then develop an assay based on the quantification of Michaelis–Menten parameters and apply this assay to a 20 base pair WT target of the SARS-CoV-2 E gene. We find that the kcat*/KM measured for WT is 130-fold greater than the lowest kcat*/KM among all 60 measured SNPs (compared to a 4.8-fold for endpoint fluorescence of the same SNP). KM also offers a strong ability to distinguish SNPs, varies 27-fold over all the cases, and, importantly, is insensitive to the target concentration. Last, we point out trends among kinetic rates and SNP base and location within the CRISPR-Cas12 targeted region.},
+  preview = {snp.gif}
 }
 
 @article{Huyke2023F,
@@ -120,7 +141,10 @@ preview = {cafes.gif},
   journal = {Flow},
   volume = {3},
   pages = {E25},
-  publisher = {Cambridge University Press}
+  publisher = {Cambridge University Press},
+  abstract = {Microfluidic mixers offer new possibilities for the study of fast reaction kinetics down to the microsecond time scale, and methods such as soft X-ray absorption spectroscopy are powerful analysis techniques. These systems impose challenging constraints on mixing time scales, sample volume, detection region size and component materials. The current work presents a novel micromixer and jet device which aims to address these limitations. The system uses a so-called ‘theta’ mixer consisting of two sintered and fused glass capillaries. Sample and carrier fluids are injected separately into the inlets of the adjacent capillaries. At the downstream end, the two streams exit two micron-scale adjoining nozzles and form a single free-standing jet. The flow-rate difference between the two streams results in the rapid acceleration and lamination of the sample stream. This creates a small transverse dimension and induces diffusive mixing of the sample and carrier stream solutions within a time scale of 0.9 microseconds. The reaction occurs at or very near a free surface so that reactants and products are more directly accessible to interrogation using soft X-ray. We use a simple diffusion model and quantitative measurements of fluorescence quenching (of fluorescein with potassium iodide) to characterize the mixing dynamics across flow-rate ratios.},
+  preview={theta.png},
+  doi = {10.1017/flo.2023.15}
 }
 
 @article{Jiang2025AC,
@@ -134,7 +158,9 @@ preview = {cafes.gif},
   pages = {27646--27653},
   issn = {0003-2700, 1520-6882},
   doi = {10.1021/acs.analchem.5c04301},
-  copyright = {https://doi.org/10.15223/policy-029}
+  copyright = {https://doi.org/10.15223/policy-029},
+  preview={jiangkinetics.gif},
+  abstract = {CRISPR-based diagnostics are powerful tools for nucleic acid detection due to their high specificity and programmability. However, assay sensitivity is often limited by the slow kinetics of the trans-cleavage reaction, which typically proceeds at a rate of ∼0.1 to 1 turnover per second. Here, we present a reaction-transport model and experimental study that analyze and accelerate this limiting step using electric-field-driven isotachophoresis (ITP). Building on the work of Ramachandran and Santiago, we develop a model that captures the coupling among ITP focusing, mixing, and preconcentration with CRISPR enzymatic reaction kinetics. Our analysis identifies two key regimes in ITP-coupled CRISPR reactions and derives analytical approximations for the limiting behaviors in each. Compared to a standard, well-mixed assay, we predict a 10- to 100-fold reduction in reaction duration using ITP. We validate the model with experiments across a range of target concentrations. Our work offers a quantitative framework for understanding and optimizing CRISPR trans-cleavage dynamics and provides guidance to design assays that use electric-field-mediated transport.}
 }
 
 @article{Jiang2025LC,
@@ -145,7 +171,9 @@ preview = {cafes.gif},
   volume = {25},
   number = {16},
   pages = {3962--3970},
-  publisher = {Royal Society of Chemistry}
+  publisher = {Royal Society of Chemistry},
+  doi = {10.1039/D4LC01062K},
+  abstract = {Microfluidic devices have been widely used in modern chemical and biological analyses as stand-alone units, typically in series with other equipment such as extraction columns, manual or robotic pipetting, and even advanced next-generation sequencing systems. While microfluidic devices have enhanced various aspects of laboratory workflows, their integration with established commercial assay platforms remains limited. To this end, we developed a three-dimensional microfluidic insert embedded directly into a commercially available polymerase chain reaction (PCR) tube. This integration creates a microfluidic device compatible with conventional thermal cyclers, which support complex temperature cycling and multiplexed fluorescence detection. The integrated system facilitates key bioassay functions like nucleic acid purification through a selective ionic focusing method known as isotachophoresis (ITP), PCR amplification, and real-time fluorescence detection. We validated the performance of the integrated system by purifying nucleic acids from raw human serum samples and detecting exogenous SARS-CoV-2 N gene using FAM-labeled TaqMan probes, with both the DNA extraction and detection carried out within the same PCR tube. We achieved a detection sensitivity of 100 cp μL−1 within a total process time of 60 min in these experiments. Human serum samples processed without purification show no PCR amplification results. This integrated system demonstrates the powerful concept of integrating microfluidic structures into form factors compatible with the highly complex and sensitive operation of current off-the-shelf systems.}
 }
 
 @article{Jiang2026b,
