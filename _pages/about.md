@@ -3,7 +3,10 @@ layout: about
 title: About
 permalink: /
 subtitle: 
-
+scholar:
+  sort_by: year
+  order: descending   # or "ascending"
+  
 profile:
   align: right
   image: alex.jpg
