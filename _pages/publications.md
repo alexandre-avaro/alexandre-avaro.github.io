@@ -4,6 +4,9 @@ permalink: /publications/
 title: Publications
 description: 
 nav: true
+scholar:
+  sort_by: year
+  order: descending   # or "ascending"
 nav_order: 2
 ---
 
