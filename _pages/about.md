@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: 
 scholar:
-  sort_by: year
+  sort_by: year, month
   order: descending   # or "ascending"
 
 profile:
