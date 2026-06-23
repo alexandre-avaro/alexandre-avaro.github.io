@@ -5,7 +5,7 @@ title: Publications
 description: 
 nav: true
 scholar:
-  sort_by: year
+  sort_by: year, month
   order: descending   # or "ascending"
 nav_order: 2
 ---
