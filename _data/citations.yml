@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-14'
 papers:
   _0namoAAAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -26,7 +26,7 @@ papers:
     title: CRISPR Assays and Microfluidic Devices for Quantitative Diagnostic Methods
     year: '2025'
   _0namoAAAAAJ:W7OEmFMy1HYC:
-    citations: 33
+    citations: 35
     title: "Uncertainty Quantification of Michaelis\u2013Menten Kinetic Rates and Its Application to the Analysis of CRISPR\u2010Based Diagnostics"
     year: '2022'
   _0namoAAAAAJ:WF5omc3nYNoC:
@@ -50,7 +50,7 @@ papers:
     title: Experimental Methods for CRISPR Enzyme Assays with Fluorescence Readout
     year: '2026'
   _0namoAAAAAJ:eQOLeE2rZwMC:
-    citations: 67
+    citations: 68
     title: A critical review of microfluidic systems for CRISPR assays
     year: '2023'
   _0namoAAAAAJ:hqOjcs7Dif8C:
