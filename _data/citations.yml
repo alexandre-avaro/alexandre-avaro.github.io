@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-09-07'
 papers:
   _0namoAAAAAJ:0EnyYjriUFMC:
     citations: 2
     title: A three-dimensional microfluidic device embedded within a thermal cycler tube for electrokinetic DNA extraction
     year: '2025'
   _0namoAAAAAJ:3fE2CSJIrl8C:
-    citations: 3
+    citations: 4
     title: Microfluidic networks using isotachophoresis
     year: '2025'
   _0namoAAAAAJ:8k81kl-MbHgC:
@@ -26,7 +26,7 @@ papers:
     title: CRISPR Assays and Microfluidic Devices for Quantitative Diagnostic Methods
     year: '2025'
   _0namoAAAAAJ:W7OEmFMy1HYC:
-    citations: 35
+    citations: 38
     title: "Uncertainty Quantification of Michaelis\u2013Menten Kinetic Rates and Its Application to the Analysis of CRISPR\u2010Based Diagnostics"
     year: '2022'
   _0namoAAAAAJ:WF5omc3nYNoC:
@@ -38,7 +38,7 @@ papers:
     title: Designing single-layer PDMS devices for micron to millimeter-scale deformations
     year: '2026'
   _0namoAAAAAJ:YsMSGLbcyi4C:
-    citations: 34
+    citations: 38
     title: Detection and discrimination of single nucleotide polymorphisms by quantification of CRISPR-Cas catalytic efficiency
     year: '2022'
   _0namoAAAAAJ:Zph67rFs4hoC:
@@ -50,7 +50,7 @@ papers:
     title: Experimental Methods for CRISPR Enzyme Assays with Fluorescence Readout
     year: '2026'
   _0namoAAAAAJ:eQOLeE2rZwMC:
-    citations: 68
+    citations: 69
     title: A critical review of microfluidic systems for CRISPR assays
     year: '2023'
   _0namoAAAAAJ:hqOjcs7Dif8C:
